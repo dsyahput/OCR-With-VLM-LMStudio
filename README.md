@@ -8,7 +8,7 @@ This repository was created to perform Optical Character Recognition (OCR) using
 * Compatible with custom datasets with paired image and groundtruth files
 
 ## Dataset Structure
-Each image is accompanied by a corresponding ground-truth `.text` file for evaluation.  
+Each image is accompanied by a corresponding ground-truth `.txt` file for evaluation.  
 Make sure your dataset is organized as follows:
 ```
 dataset/
@@ -50,4 +50,4 @@ Before running the `.ipynb` notebook, make sure to:
         images=[image_handle]
     )
     ```
-6. Evaluation results will be saved in an Excel file inside the `result/` directory.
+6. Evaluation results will be saved as an Excel file in the `result/` directory. This file contains the image name, ground-truth, predicted text, and the CER score for each image.
