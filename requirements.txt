@@ -1,0 +1,4 @@
+openpyxl
+evaluate
+lmstudio
+jiwer
